@@ -1,0 +1,109 @@
+WARN  2015-12-05 10:16:01,474 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:16:01,478 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:16:04,897 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:16:04,902 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:10,920 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.1.10:0
+ERROR 2015-12-05 10:27:25,660 (OutgoingSessionNegotiation.java:277) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : Saros versions are not compatible
+ERROR 2015-12-05 10:27:25,662 (CancelableProcess.java:356) cancelled process OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros], error: The Saros plugin of smartin1018@saros-con.imp.fu-berlin.de (Version 14.10.31) is not compatible with your installed Saros plugin (Version 13.12.6.1)
+WARN  2015-12-05 10:27:25,663 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:25,664 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:25,735 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:25,737 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:25,738 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:25,739 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:27,356 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:27,357 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:27,362 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:27,363 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:39,882 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:39,883 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:45,108 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:45,109 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:50,343 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:50,344 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:50,349 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:50,350 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:51,512 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:51,513 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:51,538 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:51,540 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:58,167 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:58,168 (NullSarosSession.java:64) unexpected method call
+ERROR 2015-12-05 10:27:58,602 (OutgoingSessionNegotiation.java:277) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : Saros versions are not compatible
+ERROR 2015-12-05 10:27:58,603 (CancelableProcess.java:356) cancelled process OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros], error: The Saros plugin of smartin1018@saros-con.imp.fu-berlin.de (Version 14.10.31) is not compatible with your installed Saros plugin (Version 13.12.6.1)
+WARN  2015-12-05 10:27:58,604 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:58,605 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:58,650 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:58,651 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:58,652 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:27:58,652 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:02,491 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:02,492 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:02,498 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:02,499 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:05,967 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:05,968 (NullSarosSession.java:64) unexpected method call
+ERROR 2015-12-05 10:28:06,391 (OutgoingSessionNegotiation.java:277) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : Saros versions are not compatible
+ERROR 2015-12-05 10:28:06,392 (CancelableProcess.java:356) cancelled process OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros], error: The Saros plugin of smartin1018@saros-con.imp.fu-berlin.de (Version 14.10.31) is not compatible with your installed Saros plugin (Version 13.12.6.1)
+WARN  2015-12-05 10:28:06,394 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:06,394 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:06,436 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:06,437 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:06,438 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:06,438 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:11,395 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:11,396 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:11,402 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:11,403 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:18,356 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:18,358 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:22,127 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:22,128 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:22,262 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:22,263 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:22,268 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:22,269 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:31,204 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:31,205 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:31,215 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:31,216 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:31,513 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:31,515 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:41,162 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:41,162 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:42,350 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:42,351 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:42,357 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:42,358 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:44,434 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:44,435 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,462 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,463 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,467 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,469 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,680 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,681 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,694 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,695 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,755 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,756 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,760 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,761 (NullSarosSession.java:64) unexpected method call
+WARN  2015-12-05 10:28:45,889 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@70499be5, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-12-05 10:28:46,045 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@515b6e91, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)

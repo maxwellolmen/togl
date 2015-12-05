@@ -1,0 +1,135 @@
+INFO  2015-12-05 10:28:50,497 (Saros.java:220) Starting Saros 14.10.31 running:
+  Java Version: 1.8.0_51
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.10.0.v20140318-2214
+  Operating System: Windows 8 (6.2)
+  Hardware Architecture: amd64
+INFO  2015-12-05 10:28:50,518 (SarosContext.java:153) creating Saros runtime context...
+INFO  2015-12-05 10:28:50,817 (SarosContext.java:199) successfully created Saros runtime context
+DEBUG 2015-12-05 10:28:50,831 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+INFO  2015-12-05 10:28:50,847 (PreferenceInitializer.java:50) initializing preference default values
+DEBUG 2015-12-05 10:28:50,883 (SarosAnnotation.java:117) resetting annotation colors
+INFO  2015-12-05 10:28:50,932 (XMPPAccountStore.java:106) loaded 1 accounts
+DEBUG 2015-12-05 10:28:50,932 (Saros.java:452) converting old account to new one: username: 'maxwellolmen', domain: 'saros-con.imp.fu-berlin.de', server: '', port: 0, TLS: true, SASL: true
+DEBUG 2015-12-05 10:28:51,092 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2015-12-05 10:28:52,904 (SharedDocumentProvider.java:77) SharedDocumentProvider created by Eclipse
+DEBUG 2015-12-05 10:28:54,604 (WhiteboardManager.java:194) WhiteboardManager instantiated
+DEBUG 2015-12-05 10:28:54,614 (DocumentRecord.java:93) Added Node: attr(144933293461272865) name=svg
+DEBUG 2015-12-05 10:28:54,659 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7778 [listening on all interfaces]
+DEBUG 2015-12-05 10:28:54,674 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.1.10, fe80:0:0:0:3478:e4c5:7dfe:792e%eth0, 2001:0:9d38:90d7:383d:1aa5:b4b7:846e, fe80:0:0:0:383d:1aa5:b4b7:846e%net1]
+DEBUG 2015-12-05 10:28:54,678 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2015-12-05 10:28:56,571 (XMPPConnectionService.java:398) maxwellolmen@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2015-12-05 10:28:56,571 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2015-12-05 10:28:56,572 (SkypeManager.java:289) Refreshing Skype username cache...
+DEBUG 2015-12-05 10:28:57,447 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: smartin1018@saros-con.imp.fu-berlin.de/Saros
+INFO  2015-12-05 10:28:59,887 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2015-12-05 10:28:59,895 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2015-12-05 10:28:59,918 (StatisticManager.java:163) Session count: 39
+INFO  2015-12-05 10:28:59,919 (ParticipantCollector.java:134) Session started: Current number of participants: 1
+DEBUG 2015-12-05 10:28:59,920 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2015-12-05 10:28:59,920 (XStreamExtensionProvider.java:149) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2015-12-05 10:28:59,920 (XStreamExtensionProvider.java:194) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2015-12-05 10:28:59,952 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2015-12-05 10:28:59,953 (WhiteboardManager.java:104) Skip Whiteboard preparation because session host has no Whiteboard
+DEBUG 2015-12-05 10:28:59,953 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@269def39 - P/Togl2 with ID 1264822381 [completely shared:true]
+DEBUG 2015-12-05 10:28:59,974 (EditorManager.java:392) CreditsActivity.java
+DEBUG 2015-12-05 10:28:59,982 (SharedProjectDecorator.java:99) updating project decoration for all shared projects
+INFO  2015-12-05 10:28:59,982 (SarosSessionManager.java:262) session started
+DEBUG 2015-12-05 10:29:00,122 (OutgoingSessionNegotiation.java:122) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : starting invitation
+DEBUG 2015-12-05 10:29:00,123 (OutgoingSessionNegotiation.java:223) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : checking Saros support
+DEBUG 2015-12-05 10:29:00,129 (OutgoingSessionNegotiation.java:235) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] :  remote contact offers Saros support
+DEBUG 2015-12-05 10:29:00,130 (OutgoingSessionNegotiation.java:253) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : checking version compatibility
+DEBUG 2015-12-05 10:29:00,201 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2015-12-05 10:29:00,225 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+DEBUG 2015-12-05 10:29:00,501 (MultiUserChat.java:310) Configuring room
+DEBUG 2015-12-05 10:29:00,537 (OutgoingSessionNegotiation.java:284) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : Saros versions are compatible
+DEBUG 2015-12-05 10:29:00,537 (OutgoingSessionNegotiation.java:298) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : sending invitation
+DEBUG 2015-12-05 10:29:00,538 (OutgoingSessionNegotiation.java:314) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : waiting for invitation acknowledgement
+DEBUG 2015-12-05 10:29:00,714 (EditorListener.java:236) Viewport changed: 0+18
+DEBUG 2015-12-05 10:29:00,952 (MultiUserChat.java:297) MUC created and joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_1539515623 Password -125538818
+DEBUG 2015-12-05 10:29:00,956 (OutgoingSessionNegotiation.java:325) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : invitation acknowledged
+DEBUG 2015-12-05 10:29:00,956 (OutgoingSessionNegotiation.java:334) OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] : waiting for peer to accept the invitation
+DEBUG 2015-12-05 10:29:01,093 (MultiUserChatStateManager.java:101) Incoming Message from saros_1539515623@conference.saros-con.imp.fu-berlin.de/maxwellolmen@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2015-12-05 10:29:01,093 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2015-12-05 10:29:01,095 (MultiUserChat.java:133) processPacket called
+WARN  2015-12-05 10:29:04,706 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.1.10:0
+DEBUG 2015-12-05 10:29:34,974 (CancelableProcess.java:156) process OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] was cancelled by the local side, error: none
+DEBUG 2015-12-05 10:29:34,975 (CancelableProcess.java:401) process OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] was cancelled manually by the local user
+DEBUG 2015-12-05 10:29:34,975 (SessionNegotiation.java:127) notifying remote contact smartin1018@saros-con.imp.fu-berlin.de/Saros of the local cancellation
+DEBUG 2015-12-05 10:29:34,975 (CancelableProcess.java:349) executing cancellation for process OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2015-12-05 10:29:34,975 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2015-12-05 10:29:34,976 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2015-12-05 10:29:34,978 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2015-12-05 10:29:34,978 (FeedbackManager.java:104) Session lasted 0 min 35 s
+DEBUG 2015-12-05 10:29:34,979 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2015-12-05 10:29:34,980 (ParticipantCollector.java:145) Session ended: Current number of participants: 1
+DEBUG 2015-12-05 10:29:34,984 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_51
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 8
+  platform.version=3.10.0.v20140318-2214
+  random.user.id=2015-09-03_19-30-26_1654239249
+  role.1.duration=0.58
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=0.58
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=39
+  session.id=1539515623
+  session.local.start=2015-12-05T16:29:34Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.1.percent=100
+  session.time.users.1=0.58
+  session.time=0.58
+  session.users.total=1
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=true
+INFO  2015-12-05 10:29:34,984 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2015-12-05 10:29:34,985 (EditorManager.java:1697) unlocking all editors
+DEBUG 2015-12-05 10:29:34,986 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2015-12-05 10:29:34,986 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2015-12-05 10:29:34,987 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2015-12-05 10:29:35,000 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@62db7924
+DEBUG 2015-12-05 10:29:35,302 (DocumentRecord.java:93) Added Node: attr(144933297530296427) name=svg
+INFO  2015-12-05 10:29:35,303 (SarosSessionManager.java:351) session stopped
+DEBUG 2015-12-05 10:29:35,303 (CancelableProcess.java:353) process OSN [remote side: smartin1018@saros-con.imp.fu-berlin.de/Saros] exit status: CANCEL
+DEBUG 2015-12-05 10:30:21,069 (DiscoveryManager.java:98) clearing cache entry of contact smartin1018@saros-con.imp.fu-berlin.de/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="urn:xmpp:ping"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+ERROR 2015-12-05 10:30:21,070 (XMPPConnectionService.java:101) XMPP connection error: 
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:247)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+ERROR 2015-12-05 10:30:21,073 (XMPPConnectionService.java:400)  new connection state == ERROR
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:247)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+DEBUG 2015-12-05 10:30:21,076 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2015-12-05 10:32:47,365 (UPnPServiceImpl.java:295) deleting existing port mappings

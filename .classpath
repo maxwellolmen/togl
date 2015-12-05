@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/androidTest/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/r/debug"/>
+	<classpathentry kind="src" path="app/src/androidTest/java"/>
+	<classpathentry kind="src" path="app/src/main/java"/>
+	<classpathentry kind="src" path="app/src/test/java"/>
+	<classpathentry kind="src" path="mobile/build/generated/source/buildConfig/androidTest/debug"/>
+	<classpathentry kind="src" path="mobile/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="mobile/build/generated/source/r/debug"/>
+	<classpathentry kind="src" path="mobile/src/androidTest/java"/>
+	<classpathentry kind="src" path="mobile/src/main/java"/>
+	<classpathentry kind="lib" path="app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_e5a3a39e1ed1a6254b148818e9916a76d101cbcc.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_db186b1199f68b3e528105864cc4b16b3224a6cf.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_557971cb32f90be6524a92419cfe8c38cd111777.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_3ff84a885a3b8ce65339d98d292bb12dadc62a25.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/pre-dexed/debug/debug_8bd0cac4685b5c9d739880438d0f67fd4ae8a4e6.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_0d45cbe8e68ad7c2446e91e8147bc197248a08ba.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/pre-dexed/debug/StartAppInApp-3.2.2_223b84b817013f17c5f954ad04c4bbcaeaec9620.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_a50352e1b24846c10df041814c3fc5766556340a.jar"/>
+	<classpathentry kind="lib" path="mobile/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar"/>
+	<classpathentry kind="lib" path="mobile/libs/StartAppInApp-3.2.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="mobile/build/intermediates/classes/debug"/>
+</classpath>
