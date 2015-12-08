@@ -9,17 +9,36 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.startapp.android.publish.StartAppAd;
-import com.startapp.android.publish.StartAppSDK;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 
 public class MainActivity extends AppCompatActivity {
-    private StartAppAd startAppAd = new StartAppAd(this);
+
+    InterstitialAd interstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        StartAppSDK.init(this, "211207027", true);
         setContentView(R.layout.activity_main);
+
+        AdView hav = (AdView) findViewById(R.id.homeAdView);
+        AdRequest har = new AdRequest.Builder().build();
+
+        hav.loadAd(har);
+
+        interstitialAd = new InterstitialAd(this);
+        interstitialAd.setAdUnitId(getString(R.string.interstitial_leave_id));
+
+        requestNewInterstitial();
+
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                requestNewInterstitial();
+            }
+        });
 
         Button button1 = (Button) findViewById(R.id.button1);
         Button button2 = (Button) findViewById(R.id.button2);
@@ -47,22 +66,19 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        startAppAd.onResume();
-    }
+    private void requestNewInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
 
-    @Override
-    public void onPause() {
-        super.onPause();
-        startAppAd.onPause();
+        interstitialAd.loadAd(adRequest);
     }
 
     @Override
     public void onBackPressed() {
-        startAppAd.onBackPressed();
-        super.onBackPressed();
+        if (interstitialAd.isLoaded()) {
+            interstitialAd.show();
+        } else {
+            super.onBackPressed();
+        }
     }
 
     @Override

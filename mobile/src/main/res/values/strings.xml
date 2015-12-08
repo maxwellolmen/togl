@@ -50,5 +50,16 @@
     <string name="u18">0</string>
     <string name="u19">0</string>
     <string name="u20">0</string>
+    <string name="u21">0</string>
     <string name="lvl1">Level 1</string>
+    <string name="title_activity_game1">GameActivity1</string>
+    <string name="twentyone">21</string>
+    <string name="banner_home_id">ca-app-pub-2360501299483117/5667766186</string>
+    <string name="banner_game_id">ca-app-pub-2360501299483117/7144499387</string>
+    <string name="interstitial_leave_id">ca-app-pub-2360501299483117/8621232589</string>
+    <string name="title_activity_game2">GameActivity2</string>
+    <string name="title_activity_good_job">GoodJobActivity</string>
+    <string name="lvl_complete">Level Complete!</string>
+    <string name="lvl2">Level 2</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
 </resources>
