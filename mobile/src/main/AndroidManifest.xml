@@ -33,10 +33,10 @@
             android:label="@string/title_activity_credits"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".GameActivity1"
+            android:name=".GameActivity2"
             android:label="@string/title_activity_game1" />
         <activity
-            android:name=".GameActivity2"
+            android:name=".GameActivity1"
             android:label="@string/title_activity_game2" />
         <activity
             android:name=".GameActivity"
@@ -46,7 +46,9 @@
             android:label="@string/title_activity_good_job" />
         <activity
             android:name=".TutorialActivity"
-            android:label="@string/title_activity_tutorial"></activity>
+            android:label="@string/title_activity_tutorial" />
+        <activity android:name=".GameActivity3" />
+        <activity android:name=".GameActivity4"></activity>
     </application>
 
 </manifest>

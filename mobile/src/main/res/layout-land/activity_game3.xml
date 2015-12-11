@@ -4,55 +4,65 @@
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameActivity1">
+    tools:context="com.maxwellolmen.togl.GameActivity3">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/lvl1"
-        android:textSize="70sp"
+        android:text="@string/lvl3"
+        android:textSize="75sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="120dp" />
+        android:layout_marginTop="0dp" />
 
     <FrameLayout
-        android:layout_width="353dp"
-        android:layout_height="65dp"
-        android:layout_gravity="center">
+        android:layout_width="321dp"
+        android:layout_height="239dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
 
         <ImageView
             android:id="@+id/cell1"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:contentDescription="" />
 
         <ImageView
             android:id="@+id/cell2"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:layout_marginLeft="72dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="82dp"
             android:contentDescription="" />
 
         <ImageView
             android:id="@+id/cell3"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:layout_marginLeft="144dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="82dp"
             android:contentDescription="" />
-
 
         <ImageView
             android:id="@+id/cell4"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:layout_marginLeft="216dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="82dp"
             android:contentDescription="" />
-
 
         <ImageView
             android:id="@+id/cell5"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:layout_marginLeft="288dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="246dp"
+            android:layout_marginTop="82dp"
+            android:contentDescription="" />
+
+        <ImageView
+            android:id="@+id/cell6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="246dp"
+            android:layout_marginTop="164dp"
             android:contentDescription="" />
 
     </FrameLayout>

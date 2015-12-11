@@ -32,6 +32,22 @@ public class GoodJobActivity extends Activity {
                         Intent intent = new Intent(GoodJobActivity.this, GameActivity1.class);
                         startActivity(intent);
                         finish();
+                        break;
+                    case 2:
+                        intent = new Intent(GoodJobActivity.this, GameActivity2.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                    case 3:
+                        intent = new Intent(GoodJobActivity.this, GameActivity3.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                    case 4:
+                        intent = new Intent(GoodJobActivity.this, GameActivity4.class);
+                        startActivity(intent);
+                        finish();
+                        break;
                 }
             }
         });
@@ -43,6 +59,17 @@ public class GoodJobActivity extends Activity {
                         Intent intent = new Intent(GoodJobActivity.this, GameActivity2.class);
                         startActivity(intent);
                         finish();
+                        break;
+                    case 2:
+                        intent = new Intent(GoodJobActivity.this, GameActivity3.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                    case 3:
+                        intent = new Intent(GoodJobActivity.this, GameActivity4.class);
+                        startActivity(intent);
+                        finish();
+                        break;
                 }
             }
         });

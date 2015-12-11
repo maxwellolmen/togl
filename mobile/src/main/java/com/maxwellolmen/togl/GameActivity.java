@@ -110,6 +110,14 @@ public abstract class GameActivity extends Activity {
                 return getOn()[2];
             case R.id.cell4:
                 return getOn()[3];
+            case R.id.cell5:
+                return getOn()[4];
+            case R.id.cell6:
+                return getOn()[5];
+            case R.id.cell7:
+                return getOn()[6];
+            case R.id.cell8:
+                return getOn()[7];
             default:
                 return false;
         }
@@ -128,6 +136,18 @@ public abstract class GameActivity extends Activity {
                 break;
             case R.id.cell4:
                 getOn()[3] = !getOn()[3];
+                break;
+            case R.id.cell5:
+                getOn()[4] = !getOn()[4];
+                break;
+            case R.id.cell6:
+                getOn()[5] = !getOn()[5];
+                break;
+            case R.id.cell7:
+                getOn()[6] = !getOn()[6];
+                break;
+            case R.id.cell8:
+                getOn()[7] = !getOn()[7];
                 break;
         }
     }

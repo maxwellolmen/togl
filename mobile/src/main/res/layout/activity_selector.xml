@@ -1,231 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".SelectorActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/selector_toolbar"
+        style="?android:actionBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:background="@color/colorPrimary"
+        android:elevation="4dp" />
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/selector_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-    </android.support.design.widget.AppBarLayout>
-
-    <FrameLayout
-        android:layout_width="357dp"
-        android:layout_height="409dp"
-        android:layout_centerInParent="true" >
-
-        <Button
-            android:id="@+id/lvl1"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/one"/>
-
-        <Button
-            android:id="@+id/lvl2"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="52dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/two"/>
-
-        <Button
-            android:id="@+id/lvl3"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="104dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/three"/>
-
-        <Button
-            android:id="@+id/lvl4"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="156dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/four" />
-
-        <Button
-            android:id="@+id/lvl5"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="208dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/five"/>
-
-        <Button
-            android:id="@+id/lvl6"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="260dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/six" />
-
-        <Button
-            android:id="@+id/lvl7"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="312dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/seven" />
-
-        <Button
-            android:id="@+id/lvl8"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginTop="52dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/eight" />
-
-        <Button
-            android:id="@+id/lvl9"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginLeft="52dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/nine" />
-
-        <Button
-            android:id="@+id/lvl10"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginLeft="104dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/ten" />
-
-        <Button
-            android:id="@+id/lvl11"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginLeft="156dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/eleven"/>
-
-        <Button
-            android:id="@+id/lvl12"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="208dp"
-            android:layout_marginTop="52dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/twelve"/>
-
-        <Button
-            android:id="@+id/lvl13"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="260dp"
-            android:layout_marginTop="52dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/thirteen"/>
-
-        <Button
-            android:id="@+id/lvl14"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="312dp"
-            android:layout_marginTop="52dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/fourteen" />
-
-        <Button
-            android:id="@+id/lvl15"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginTop="104dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/fifteen"/>
-
-        <Button
-            android:id="@+id/lvl16"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="52dp"
-            android:layout_marginTop="104dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/sixteen" />
-
-        <Button
-            android:id="@+id/lvl17"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="104dp"
-            android:layout_marginTop="104dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/seventeen" />
-
-        <Button
-            android:id="@+id/lvl18"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="156dp"
-            android:layout_marginTop="104dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/eighteen" />
-
-        <Button
-            android:id="@+id/lvl19"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="208dp"
-            android:layout_marginTop="104dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/nineteen" />
-
-        <Button
-            android:id="@+id/lvl20"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="260dp"
-            android:layout_marginTop="104dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/twenty" />
-
-        <Button
-            android:id="@+id/lvl21"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="312dp"
-            android:layout_marginTop="104dp"
-            android:clickable="true"
-            android:background="@mipmap/square1"
-            android:text="@string/twentyone" />
-
-    </FrameLayout>
-
-</RelativeLayout>
+</LinearLayout>
