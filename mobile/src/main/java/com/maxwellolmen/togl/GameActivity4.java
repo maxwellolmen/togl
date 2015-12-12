@@ -31,7 +31,7 @@ public class GameActivity4 extends GameActivity {
 
     @Override
     public Integer[][] initListeners() {
-        return new Integer[][]{{R.id.cell1, R.id.cell2, R.id.cell3}, {R.id.cell1, R.id.cell2, R.id.cell4}, {R.id.cell1, R.id.cell3, R.id.cell4}, {R.id.cell2, R.id.cell3, R.id.cell4, R.id.cell5}, {R.id.cell4, R.id.cell5, R.id.cell6}, {R.id.cell5, R.id.cell6, R.id.cell8}, {R.id.cell5, R.id.cell7, R.id.cell8}, {R.id.cell6, R.id.cell7, R.id.cell8}};
+        return new Integer[][]{{R.id.cell1, R.id.cell2, R.id.cell3}, {R.id.cell1, R.id.cell2, R.id.cell4}, {R.id.cell1, R.id.cell3, R.id.cell4}, {R.id.cell2, R.id.cell3, R.id.cell4, R.id.cell5}, {R.id.cell4, R.id.cell5, R.id.cell6, R.id.cell7}, {R.id.cell5, R.id.cell6, R.id.cell8}, {R.id.cell5, R.id.cell7, R.id.cell8}, {R.id.cell6, R.id.cell7, R.id.cell8}};
     }
 
     @Override
