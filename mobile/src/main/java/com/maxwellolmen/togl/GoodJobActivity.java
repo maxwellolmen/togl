@@ -48,6 +48,11 @@ public class GoodJobActivity extends Activity {
                         startActivity(intent);
                         finish();
                         break;
+                    case 5:
+                        intent = new Intent(GoodJobActivity.this, GameActivity5.class);
+                        startActivity(intent);
+                        finish();
+                        break;
                 }
             }
         });
@@ -67,6 +72,11 @@ public class GoodJobActivity extends Activity {
                         break;
                     case 3:
                         intent = new Intent(GoodJobActivity.this, GameActivity4.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                    case 4:
+                        intent = new Intent(GoodJobActivity.this, GameActivity5.class);
                         startActivity(intent);
                         finish();
                         break;

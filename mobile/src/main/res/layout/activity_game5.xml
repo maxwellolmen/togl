@@ -4,19 +4,19 @@
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.maxwellolmen.togl.GameActivity4">
+    tools:context="com.maxwellolmen.togl.GameActivity5">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/lvl4"
+        android:text="@string/lvl5"
         android:textSize="65sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="80dp" />
 
     <FrameLayout
-        android:layout_width="321dp"
-        android:layout_height="239dp"
+        android:layout_width="246dp"
+        android:layout_height="246dp"
         android:layout_gravity="center">
 
         <ImageView
@@ -36,14 +36,13 @@
             android:id="@+id/cell3"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginTop="82dp"
+            android:layout_marginLeft="164dp"
             android:contentDescription="" />
 
         <ImageView
             android:id="@+id/cell4"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginLeft="82dp"
             android:layout_marginTop="82dp"
             android:contentDescription="" />
 
@@ -51,7 +50,7 @@
             android:id="@+id/cell5"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginLeft="164dp"
+            android:layout_marginLeft="82dp"
             android:layout_marginTop="82dp"
             android:contentDescription="" />
 
@@ -59,7 +58,7 @@
             android:id="@+id/cell6"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginLeft="246dp"
+            android:layout_marginLeft="164dp"
             android:layout_marginTop="82dp"
             android:contentDescription="" />
 
@@ -67,7 +66,6 @@
             android:id="@+id/cell7"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginLeft="164dp"
             android:layout_marginTop="164dp"
             android:contentDescription="" />
 
@@ -75,7 +73,15 @@
             android:id="@+id/cell8"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginLeft="246dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="164dp"
+            android:contentDescription="" />
+
+        <ImageView
+            android:id="@+id/cell9"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="164dp"
             android:layout_marginTop="164dp"
             android:contentDescription="" />
 

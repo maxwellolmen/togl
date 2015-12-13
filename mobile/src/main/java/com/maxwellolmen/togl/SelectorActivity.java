@@ -31,7 +31,7 @@ public class SelectorActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.selector_toolbar);
         setSupportActionBar(toolbar);
 
-        mDataset = new String[] {getString(R.string.lvl1), getString(R.string.lvl2), getString(R.string.lvl3), getString(R.string.lvl4)};
+        mDataset = new String[] {getString(R.string.lvl1), getString(R.string.lvl2), getString(R.string.lvl3), getString(R.string.lvl4), "Level Five"};
 
         ctx = SelectorActivity.this;
         sharedPref = PreferenceManager.getDefaultSharedPreferences(ctx);
@@ -59,6 +59,9 @@ public class SelectorActivity extends AppCompatActivity {
                 break;
             case 3:
                 startIntent(GameActivity4.class);
+                break;
+            case 4:
+                startIntent(GameActivity5.class);
                 break;
         }
     }

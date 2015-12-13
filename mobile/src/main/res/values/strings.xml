@@ -61,6 +61,7 @@
     <string name="title_activity_good_job">GoodJobActivity</string>
     <string name="lvl_complete">Level Complete!</string>
     <string name="lvl2">Level Two</string>
+    <string name="lvl5">Level Five</string>
     <string name="title_activity_tutorial">TutorialActivity</string>
 
     <!-- TODO: Remove or change this placeholder text -->

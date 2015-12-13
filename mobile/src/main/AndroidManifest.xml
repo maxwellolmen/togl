@@ -43,6 +43,9 @@
             android:label="@string/title_activity_good_job" />
         <activity android:name=".GameActivity3" />
         <activity android:name=".GameActivity4" />
+        <activity
+            android:name=".GameActivity5"
+            android:label="@string/title_activity_game5"></activity>
     </application>
 
 </manifest>
