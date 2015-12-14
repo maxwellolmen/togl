@@ -9,7 +9,7 @@
     <string name="title_activity_options">Options</string>
     <string name="title_activity_credits">Credits</string>
     <string name="title_activity_selector">Selector</string>
-    <string name="creds">Developers:\nMaxwell Olmen\nand\nSage Martin\n\n\nDesigners:\nBryce Davis\nand\nKareem Taha</string>
+    <string name="creds">Developers:\nMaxwell Olmen\nand Sage Martin\n\n\nDesigners:\nBryce Davis and\nKareem Taha</string>
     <string name="first_cell">First Cell</string>
     <string name="u2">0</string>
     <string name="u3">0</string>
