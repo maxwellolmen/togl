@@ -30,7 +30,7 @@ public class SelectorActivity extends Selector {
         Toolbar toolbar = (Toolbar) findViewById(R.id.selector_toolbar);
         setSupportActionBar(toolbar);
 
-        mDataset = new String[] {getString(R.string.lvl1), getString(R.string.lvl2), getString(R.string.lvl3), getString(R.string.lvl4), getString(R.string.lvl5), getString(R.string.lvl6)};
+        mDataset = new String[] {getString(R.string.lvl1), getString(R.string.lvl2), getString(R.string.lvl3), getString(R.string.lvl4), getString(R.string.lvl5), getString(R.string.lvl6), getString(R.string.lvl7)};
 
         ctx = SelectorActivity.this;
         sharedPref = PreferenceManager.getDefaultSharedPreferences(ctx);
@@ -64,6 +64,9 @@ public class SelectorActivity extends Selector {
                 break;
             case 5:
                 startIntent(GameActivity6.class);
+                break;
+            case 6:
+                startIntent(GameActivity7.class);
                 break;
         }
     }

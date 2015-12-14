@@ -54,4 +54,6 @@
     <string name="tutorial">TUTORIALS</string>
     <string name="title_activity_game6">GameActivity6</string>
     <string name="title_activity_game4">GameActivity4</string>
+    <string name="title_activity_game7">GameActivity7</string>
+    <string name="lvl7">Level Seven</string>
 </resources>
