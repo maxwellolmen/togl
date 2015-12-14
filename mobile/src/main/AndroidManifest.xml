@@ -39,13 +39,11 @@
             android:name=".GoodJobActivity"
             android:label="@string/title_activity_good_job" />
         <activity
-<<<<<<< HEAD
             android:name=".GameActivity5"
             android:label="@string/title_activity_game5" />
-=======
+        <activity
             android:name=".GameActivity6"
             android:label="@string/title_activity_game6" />
->>>>>>> origin/master
         <activity
             android:name=".TutorialSelectorActivity"
             android:label="@string/title_activity_tutorial" />

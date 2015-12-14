@@ -53,11 +53,8 @@
     <string name="title_activity_game5">GameActivity5</string>
     <string name="tutorial">TUTORIALS</string>
     <string name="title_activity_game6">GameActivity6</string>
-<<<<<<< HEAD
     <string name="title_activity_game3">GameActivity3</string>
-=======
     <string name="title_activity_game4">GameActivity4</string>
     <string name="title_activity_game7">GameActivity7</string>
     <string name="lvl7">Level Seven</string>
->>>>>>> origin/master
 </resources>
