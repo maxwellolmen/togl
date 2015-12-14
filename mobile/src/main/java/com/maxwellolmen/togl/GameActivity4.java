@@ -16,12 +16,12 @@ public class GameActivity4 extends GameActivity {
 
     @Override
     public void initLayout() {
-        setContentView(R.layout.activity_game3);
+        setContentView(R.layout.activity_game4);
     }
 
     @Override
     public void initBooleans() {
-        on = new boolean[] {false, false, false, false, false, false, false, false,};
+        on = new boolean[] {true, false, false, true, true, false, false, true};
 
     }
 
@@ -42,7 +42,7 @@ public class GameActivity4 extends GameActivity {
 
     @Override
     public int getNextLevel() {
-        return R.string.u4;
+        return R.string.u5;
     }
 
     @Override

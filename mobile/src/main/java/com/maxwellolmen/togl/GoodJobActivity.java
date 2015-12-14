@@ -39,11 +39,16 @@ public class GoodJobActivity extends Activity {
                         finish();
                         break;
                     case 3:
+                        intent = new Intent(GoodJobActivity.this, GameActivity4.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                    case 5:
                         intent = new Intent(GoodJobActivity.this, GameActivity5.class);
                         startActivity(intent);
                         finish();
                         break;
-                    case 4:
+                    case 6:
                         intent = new Intent(GoodJobActivity.this, GameActivity6.class);
                         startActivity(intent);
                         finish();
@@ -56,17 +61,17 @@ public class GoodJobActivity extends Activity {
             public void onClick(View v) {
                 switch (b.getInt("level")) {
                     case 1:
-                        Intent intent = new Intent(GoodJobActivity.this, GameActivity1.class);
+                        Intent intent = new Intent(GoodJobActivity.this, GameActivity2.class);
                         startActivity(intent);
                         finish();
                         break;
                     case 2:
-                        intent = new Intent(GoodJobActivity.this, GameActivity2.class);
+                        intent = new Intent(GoodJobActivity.this, GameActivity3.class);
                         startActivity(intent);
                         finish();
                         break;
                     case 3:
-                        intent = new Intent(GoodJobActivity.this, GameActivity3.class);
+                        intent = new Intent(GoodJobActivity.this, GameActivity4.class);
                         startActivity(intent);
                         finish();
                         break;
