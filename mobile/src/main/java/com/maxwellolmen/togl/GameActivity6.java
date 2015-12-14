@@ -15,7 +15,7 @@ public class GameActivity6 extends GameActivity {
 
     @Override
     public void initLayout() {
-        setContentView(R.layout.activity_game5);
+        setContentView(R.layout.activity_game6);
     }
 
     @Override
@@ -50,7 +50,7 @@ public class GameActivity6 extends GameActivity {
 
     @Override
     public int getNextLevel() {
-        return R.string.u5;
+        return R.string.u6;
     }
 
     @Override
