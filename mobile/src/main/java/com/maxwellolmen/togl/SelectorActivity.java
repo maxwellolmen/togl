@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -61,10 +60,10 @@ public class SelectorActivity extends Selector {
                 startIntent(GameActivity3.class);
                 break;
             case 4:
-                startIntent(GameActivity4.class);
+                startIntent(GameActivity5.class);
                 break;
             case 5:
-                startIntent(GameActivity5.class);
+                startIntent(GameActivity6.class);
                 break;
         }
     }

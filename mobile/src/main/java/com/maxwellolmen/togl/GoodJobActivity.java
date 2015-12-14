@@ -39,12 +39,12 @@ public class GoodJobActivity extends Activity {
                         finish();
                         break;
                     case 3:
-                        intent = new Intent(GoodJobActivity.this, GameActivity4.class);
+                        intent = new Intent(GoodJobActivity.this, GameActivity5.class);
                         startActivity(intent);
                         finish();
                         break;
                     case 4:
-                        intent = new Intent(GoodJobActivity.this, GameActivity5.class);
+                        intent = new Intent(GoodJobActivity.this, GameActivity6.class);
                         startActivity(intent);
                         finish();
                         break;
@@ -71,12 +71,12 @@ public class GoodJobActivity extends Activity {
                         finish();
                         break;
                     case 4:
-                        intent = new Intent(GoodJobActivity.this, GameActivity4.class);
+                        intent = new Intent(GoodJobActivity.this, GameActivity5.class);
                         startActivity(intent);
                         finish();
                         break;
                     case 5:
-                        intent = new Intent(GoodJobActivity.this, GameActivity5.class);
+                        intent = new Intent(GoodJobActivity.this, GameActivity6.class);
                         startActivity(intent);
                         finish();
                         break;
