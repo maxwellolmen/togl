@@ -5,14 +5,14 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.widget.ImageView;
 
 import com.maxwellolmen.togl.adapter.SelectorAdapter;
 
-public class SelectorActivity extends Selector {
+public class TutorialSelectorActivity extends Selector {
 
     Context ctx;
     SharedPreferences sharedPref;
@@ -27,13 +27,11 @@ public class SelectorActivity extends Selector {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_selector);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.selector_toolbar);
-        setSupportActionBar(toolbar);
+        setContentView(R.layout.activity_tutorial_selector);
 
-        mDataset = new String[] {getString(R.string.lvl1), getString(R.string.lvl2), getString(R.string.lvl3), getString(R.string.lvl4), getString(R.string.lvl5)};
+        mDataset = new String[]{};
 
-        ctx = SelectorActivity.this;
+        ctx = TutorialSelectorActivity.this;
         sharedPref = PreferenceManager.getDefaultSharedPreferences(ctx);
 
         mRecyclerView = (RecyclerView) findViewById(R.id.selector_recycler);
@@ -48,29 +46,12 @@ public class SelectorActivity extends Selector {
 
     public void processClick(int position) {
         switch (position) {
-            case 0:
-                startIntent(TutorialSelectorActivity.class);
-                break;
-            case 1:
-                startIntent(GameActivity1.class);
-                break;
-            case 2:
-                startIntent(GameActivity2.class);
-                break;
-            case 3:
-                startIntent(GameActivity3.class);
-                break;
-            case 4:
-                startIntent(GameActivity4.class);
-                break;
-            case 5:
-                startIntent(GameActivity5.class);
-                break;
+
         }
     }
 
     public void startIntent(Class<?> activity) {
-        Intent intent = new Intent(SelectorActivity.this, activity);
+        Intent intent = new Intent(TutorialSelectorActivity.this, activity);
         startActivity(intent);
     }
 }

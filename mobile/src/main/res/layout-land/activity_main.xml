@@ -15,14 +15,14 @@
         android:layout_height="wrap_content"
         android:src="@mipmap/logo"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="7dp"/>
+        android:layout_marginTop="15dp"/>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="-60dp"
         android:clickable="true"
         android:singleLine="true"
         android:textSize="30sp"
@@ -30,12 +30,27 @@
         android:foreground="?android:attr/selectableItemBackground"
         android:text="@string/level_select"
         style="?android:attr/borderlessButtonStyle" />
+
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="-10dp"
+        android:clickable="true"
+        android:singleLine="true"
+        android:textSize="30sp"
+        android:fontFamily="roboto"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="@string/tutorial"
+        style="?android:attr/borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
         android:clickable="true"
         android:singleLine="true"
         android:textSize="30sp"
@@ -45,11 +60,11 @@
         style="?android:attr/borderlessButtonStyle" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="90dp"
         android:clickable="true"
         android:singleLine="true"
         android:textSize="30sp"

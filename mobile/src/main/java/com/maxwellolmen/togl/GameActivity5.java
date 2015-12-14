@@ -57,7 +57,7 @@ public class GameActivity5 extends GameActivity {
     @Override
     public Bundle getBundle() {
         Bundle b = new Bundle();
-        b.putInt("level", 5);
+        b.putInt("level", 6);
 
         return b;
     }

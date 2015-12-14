@@ -45,7 +45,10 @@
         <activity android:name=".GameActivity4" />
         <activity
             android:name=".GameActivity5"
-            android:label="@string/title_activity_game5"></activity>
+            android:label="@string/title_activity_game5" />
+        <activity
+            android:name=".TutorialSelectorActivity"
+            android:label="@string/title_activity_tutorial"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 package com.maxwellolmen.togl.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -12,12 +13,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.maxwellolmen.togl.R;
+import com.maxwellolmen.togl.Selector;
 import com.maxwellolmen.togl.SelectorActivity;
 
 public class SelectorAdapter extends RecyclerView.Adapter<SelectorAdapter.ViewHolder> {
 
     private static String[] mDataset;
-    private SelectorActivity selectorActivity;
+    private Selector selector;
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public View mCardView;
@@ -32,9 +34,9 @@ public class SelectorAdapter extends RecyclerView.Adapter<SelectorAdapter.ViewHo
         }
     }
 
-    public SelectorAdapter(String[] mDataset, SelectorActivity selectorActivity) {
+    public SelectorAdapter(String[] mDataset, Selector selector) {
         SelectorAdapter.mDataset = mDataset;
-        this.selectorActivity = selectorActivity;
+        this.selector = selector;
     }
 
     public SelectorAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -49,7 +51,7 @@ public class SelectorAdapter extends RecyclerView.Adapter<SelectorAdapter.ViewHo
         holder.mCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectorActivity.processClick(position);
+                selector.processClick(position);
             }
         });
     }
