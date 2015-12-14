@@ -30,7 +30,7 @@ public class SelectorActivity extends Selector {
         Toolbar toolbar = (Toolbar) findViewById(R.id.selector_toolbar);
         setSupportActionBar(toolbar);
 
-        mDataset = new String[] {getString(R.string.lvl1), getString(R.string.lvl2), getString(R.string.lvl3), getString(R.string.lvl4), getString(R.string.lvl5)};
+        mDataset = new String[] {getString(R.string.lvl1), getString(R.string.lvl2), getString(R.string.lvl3), getString(R.string.lvl4), getString(R.string.lvl5), getString(R.string.lvl6), getString(R.string.lvl7)};
 
         ctx = SelectorActivity.this;
         sharedPref = PreferenceManager.getDefaultSharedPreferences(ctx);
@@ -48,22 +48,25 @@ public class SelectorActivity extends Selector {
     public void processClick(int position) {
         switch (position) {
             case 0:
-                startIntent(TutorialSelectorActivity.class);
-                break;
-            case 1:
                 startIntent(GameActivity1.class);
                 break;
-            case 2:
+            case 1:
                 startIntent(GameActivity2.class);
                 break;
-            case 3:
+            case 2:
                 startIntent(GameActivity3.class);
+                break;
+            case 3:
+                startIntent(GameActivity4.class);
                 break;
             case 4:
                 startIntent(GameActivity5.class);
                 break;
             case 5:
                 startIntent(GameActivity6.class);
+                break;
+            case 6:
+                startIntent(GameActivity7.class);
                 break;
         }
     }

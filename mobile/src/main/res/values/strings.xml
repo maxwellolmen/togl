@@ -42,6 +42,7 @@
     <string name="lvl_complete">Level Complete!</string>
     <string name="lvl2">Level Two</string>
     <string name="lvl5">Level Five</string>
+    <string name="lvl6">Level Six</string>
     <string name="tut">Tutorial</string>
     <string name="title_activity_tutorial">TutorialActivity</string>
 
@@ -52,5 +53,11 @@
     <string name="title_activity_game5">GameActivity5</string>
     <string name="tutorial">TUTORIALS</string>
     <string name="title_activity_game6">GameActivity6</string>
+<<<<<<< HEAD
     <string name="title_activity_game3">GameActivity3</string>
+=======
+    <string name="title_activity_game4">GameActivity4</string>
+    <string name="title_activity_game7">GameActivity7</string>
+    <string name="lvl7">Level Seven</string>
+>>>>>>> origin/master
 </resources>

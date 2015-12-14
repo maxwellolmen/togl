@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-public class GameActivity5 extends GameActivity {
+public class GameActivity7                  extends GameActivity {
 
     public boolean[] on;
 
@@ -15,12 +15,12 @@ public class GameActivity5 extends GameActivity {
 
     @Override
     public void initLayout() {
-        setContentView(R.layout.activity_game5);
+        setContentView(R.layout.activity_game7);
     }
 
     @Override
     public void initBooleans() {
-        on = new boolean[] {true, true, false, true, true, true, false, false};
+        on = new boolean[] {true, true, false, false, false, false, true, true};
     }
 
     @Override
@@ -30,12 +30,12 @@ public class GameActivity5 extends GameActivity {
 
     @Override
     public Integer[][] initListeners() {
-        return new Integer[][]{{R.id.cell1, R.id.cell2, R.id.cell3}, {R.id.cell1, R.id.cell2, R.id.cell4}, {R.id.cell1, R.id.cell3, R.id.cell4}, {R.id.cell2, R.id.cell3, R.id.cell4, R.id.cell5}, {R.id.cell4, R.id.cell5, R.id.cell6, R.id.cell7}, {R.id.cell5, R.id.cell6, R.id.cell8}, {R.id.cell5, R.id.cell7, R.id.cell8}, {R.id.cell6, R.id.cell7, R.id.cell8}};
+        return new Integer[][]{{R.id.cell1, R.id.cell3}, {R.id.cell2, R.id.cell6}, {R.id.cell3, R.id.cell1, R.id.cell4, R.id.cell7}, {R.id.cell4, R.id.cell3, R.id.cell5}, {R.id.cell5, R.id.cell4, R.id.cell6}, {R.id.cell6, R.id.cell2, R.id.cell5, R.id.cell8}, {R.id.cell7, R.id.cell3}, {R.id.cell8, R.id.cell6}};
     }
 
     @Override
     public Intent getIntent() {
-        return new Intent(GameActivity5.this, GoodJobActivity.class);
+        return new Intent(GameActivity7.this, GoodJobActivity.class);
     }
 
     @Override
@@ -46,7 +46,7 @@ public class GameActivity5 extends GameActivity {
     @Override
     public Bundle getBundle() {
         Bundle b = new Bundle();
-        b.putInt("level", 5);
+        b.putInt("level", 7);
 
         return b;
     }
